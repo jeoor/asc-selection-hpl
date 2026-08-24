@@ -10,7 +10,7 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 机器来源 | 自备云服务器（AutoDL / SeetaCloud） |
+| 机器来源 | 自备付费云服务器（AutoDL / SeetaCloud） |
 | 操作系统 | Ubuntu 22.04.1 LTS |
 | CPU | Intel Xeon Gold 6348，分配 14 vCPU |
 | 内存 | 120 GiB |
@@ -80,4 +80,3 @@ bash scripts/extract_results.sh
 - `results/results.csv`：汇总数据。
 - `results/environment.txt`：机器和软件环境记录。
 - `scripts/`：批量运行与结果提取脚本。
-
