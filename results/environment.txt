@@ -1,0 +1,27 @@
+2026-08-24T20:28:42+08:00
+PRETTY_NAME="Ubuntu 22.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.1 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+CPU_ALLOCATED=14_vCPU
+model name	: Intel(R) Xeon(R) Gold 6348 CPU @ 2.60GHz
+MEMORY_LIMIT_BYTES=128849018880
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+HYDRA build details:
+    Version:                                 3.4.3
+    Release Date:                            Thu Dec 16 11:20:57 CST 2021
+    CC:                              gcc    
+    Configure options:                       '--disable-option-checking' '--prefix=/root/autodl-tmp/ASC_SELECTION/mpich-ch3' '--with-device=ch3:sock' '--disable-fortran' '--disable-cxx' '--cache-file=/dev/null' '--srcdir=../../../../mpich-3.4.3/src/pm/hydra' 'CC=gcc' 'CFLAGS= -O2' 'LDFLAGS=' 'LIBS=' 'CPPFLAGS= -I/root/autodl-tmp/ASC_SELECTION/mpich-ch3-build/src/mpl/include -I/root/autodl-tmp/ASC_SELECTION/mpich-3.4.3/src/mpl/include -I/root/autodl-tmp/ASC_SELECTION/mpich-ch3-build/modules/yaksa/src/frontend/include -I/root/autodl-tmp/ASC_SELECTION/mpich-3.4.3/modules/yaksa/src/frontend/include -I/root/autodl-tmp/ASC_SELECTION/mpich-3.4.3/modules/json-c -I/root/autodl-tmp/ASC_SELECTION/mpich-ch3-build/modules/json-c -D_REENTRANT -I/root/autodl-tmp/ASC_SELECTION/mpich-ch3-build/src/mpi/romio/include' 'MPLLIBNAME=mpl'
+    Process Manager:                         pmi
+    Launchers available:                     ssh rsh fork slurm ll lsf sge manual persist
+    Topology libraries available:            hwloc
+=
+NVIDIA A800 80GB PCIe, 81920 MiB, 595.71.05

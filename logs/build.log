@@ -1,0 +1,457 @@
+make -f Make.top startup_dir     arch=a800_ch3
+make[1]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+mkdir include/a800_ch3
+mkdir lib
+mkdir: cannot create directory 'lib': File exists
+make[1]: [Make.top:75: startup_dir] Error 1 (ignored)
+mkdir lib/a800_ch3
+mkdir bin
+mkdir: cannot create directory 'bin': File exists
+make[1]: [Make.top:77: startup_dir] Error 1 (ignored)
+mkdir bin/a800_ch3
+make[1]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top startup_src     arch=a800_ch3
+make[1]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=src/auxil       arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd src/auxil ; mkdir a800_ch3 )
+( cd src/auxil/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=src/blas        arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd src/blas ; mkdir a800_ch3 )
+( cd src/blas/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=src/comm        arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd src/comm ; mkdir a800_ch3 )
+( cd src/comm/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=src/grid        arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd src/grid ; mkdir a800_ch3 )
+( cd src/grid/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=src/panel       arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd src/panel ; mkdir a800_ch3 )
+( cd src/panel/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=src/pauxil      arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd src/pauxil ; mkdir a800_ch3 )
+( cd src/pauxil/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=src/pfact       arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd src/pfact ; mkdir a800_ch3 )
+( cd src/pfact/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=src/pgesv       arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd src/pgesv ; mkdir a800_ch3 )
+( cd src/pgesv/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make[1]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top startup_tst     arch=a800_ch3
+make[1]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=testing/matgen  arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd testing/matgen ; mkdir a800_ch3 )
+( cd testing/matgen/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=testing/timer   arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd testing/timer ; mkdir a800_ch3 )
+( cd testing/timer/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=testing/pmatgen arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd testing/pmatgen ; mkdir a800_ch3 )
+( cd testing/pmatgen/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=testing/ptimer  arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd testing/ptimer ; mkdir a800_ch3 )
+( cd testing/ptimer/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top leaf le=testing/ptest   arch=a800_ch3
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd testing/ptest ; mkdir a800_ch3 )
+( cd testing/ptest/a800_ch3 ; \
+            ln -s /root/autodl-tmp/ASC_SELECTION/hpl-2.3/Make.a800_ch3 Make.inc )
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make[1]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top refresh_src     arch=a800_ch3
+make[1]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+cp makes/Make.auxil    src/auxil/a800_ch3/Makefile
+cp makes/Make.blas     src/blas/a800_ch3/Makefile
+cp makes/Make.comm     src/comm/a800_ch3/Makefile
+cp makes/Make.grid     src/grid/a800_ch3/Makefile
+cp makes/Make.panel    src/panel/a800_ch3/Makefile
+cp makes/Make.pauxil   src/pauxil/a800_ch3/Makefile
+cp makes/Make.pfact    src/pfact/a800_ch3/Makefile
+cp makes/Make.pgesv    src/pgesv/a800_ch3/Makefile
+make[1]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top refresh_tst     arch=a800_ch3
+make[1]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+cp makes/Make.matgen   testing/matgen/a800_ch3/Makefile
+cp makes/Make.timer    testing/timer/a800_ch3/Makefile
+cp makes/Make.pmatgen  testing/pmatgen/a800_ch3/Makefile
+cp makes/Make.ptimer   testing/ptimer/a800_ch3/Makefile
+cp makes/Make.ptest    testing/ptest/a800_ch3/Makefile
+make[1]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top refresh_src     arch=a800_ch3
+make[1]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+cp makes/Make.auxil    src/auxil/a800_ch3/Makefile
+cp makes/Make.blas     src/blas/a800_ch3/Makefile
+cp makes/Make.comm     src/comm/a800_ch3/Makefile
+cp makes/Make.grid     src/grid/a800_ch3/Makefile
+cp makes/Make.panel    src/panel/a800_ch3/Makefile
+cp makes/Make.pauxil   src/pauxil/a800_ch3/Makefile
+cp makes/Make.pfact    src/pfact/a800_ch3/Makefile
+cp makes/Make.pgesv    src/pgesv/a800_ch3/Makefile
+make[1]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top refresh_tst     arch=a800_ch3
+make[1]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+cp makes/Make.matgen   testing/matgen/a800_ch3/Makefile
+cp makes/Make.timer    testing/timer/a800_ch3/Makefile
+cp makes/Make.pmatgen  testing/pmatgen/a800_ch3/Makefile
+cp makes/Make.ptimer   testing/ptimer/a800_ch3/Makefile
+cp makes/Make.ptest    testing/ptest/a800_ch3/Makefile
+make[1]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top build_src       arch=a800_ch3
+make[1]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd src/auxil/a800_ch3;         make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/auxil/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlacpy.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlacpy.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlatcpy.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlatcpy.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_fprintf.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_fprintf.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_warn.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_warn.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_abort.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_abort.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaprnt.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaprnt.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlange.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlange.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlamch.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu   ../HPL_dlamch.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_dlacpy.o           HPL_dlatcpy.o          HPL_fprintf.o HPL_warn.o             HPL_abort.o            HPL_dlaprnt.o HPL_dlange.o HPL_dlamch.o
+ar: creating /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/auxil/a800_ch3'
+( cd src/blas/a800_ch3;          make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/blas/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dcopy.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dcopy.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_daxpy.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_daxpy.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dscal.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dscal.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_idamax.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_idamax.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dgemv.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dgemv.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dtrsv.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dtrsv.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dger.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dger.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dgemm.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dgemm.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dtrsm.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dtrsm.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_dcopy.o            HPL_daxpy.o            HPL_dscal.o HPL_idamax.o           HPL_dgemv.o            HPL_dtrsv.o HPL_dger.o             HPL_dgemm.o            HPL_dtrsm.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/blas/a800_ch3'
+( cd src/comm/a800_ch3;          make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/comm/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_1ring.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_1ring.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_1rinM.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_1rinM.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_2ring.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_2ring.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_2rinM.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_2rinM.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_blong.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_blong.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_blonM.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_blonM.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_packL.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_packL.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_copyL.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_copyL.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_binit.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_binit.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_bcast.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_bcast.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_bwait.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_bwait.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_send.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_send.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_recv.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_recv.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_sdrv.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_sdrv.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_1ring.o            HPL_1rinM.o            HPL_2ring.o HPL_2rinM.o            HPL_blong.o            HPL_blonM.o HPL_packL.o            HPL_copyL.o            HPL_binit.o HPL_bcast.o            HPL_bwait.o            HPL_send.o HPL_recv.o             HPL_sdrv.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/comm/a800_ch3'
+( cd src/grid/a800_ch3;          make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/grid/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_grid_init.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_grid_init.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pnum.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pnum.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_grid_info.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_grid_info.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_grid_exit.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_grid_exit.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_broadcast.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_broadcast.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_reduce.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_reduce.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_all_reduce.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_all_reduce.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_barrier.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_barrier.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_min.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_min.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_max.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_max.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_sum.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_sum.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_grid_init.o        HPL_pnum.o             HPL_grid_info.o HPL_grid_exit.o        HPL_broadcast.o        HPL_reduce.o HPL_all_reduce.o       HPL_barrier.o          HPL_min.o HPL_max.o              HPL_sum.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/grid/a800_ch3'
+( cd src/panel/a800_ch3;         make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/panel/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpanel_new.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpanel_new.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpanel_init.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpanel_init.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpanel_disp.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpanel_disp.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpanel_free.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpanel_free.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_pdpanel_new.o      HPL_pdpanel_init.o     HPL_pdpanel_disp.o HPL_pdpanel_free.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/panel/a800_ch3'
+( cd src/pauxil/a800_ch3;        make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/pauxil/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_indxg2l.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_indxg2l.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_indxg2lp.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_indxg2lp.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_indxg2p.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_indxg2p.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_indxl2g.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_indxl2g.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_infog2l.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_infog2l.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_numroc.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_numroc.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_numrocI.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_numrocI.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp00N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp00N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp10N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp10N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp01N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp01N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp01T.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp01T.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp02N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp02N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp03N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp03N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp03T.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp03T.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp04N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp04N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp04T.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp04T.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp05N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp05N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp05T.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp05T.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp06N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp06N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlaswp06T.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlaswp06T.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pwarn.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pwarn.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pabort.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pabort.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdlaprnt.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdlaprnt.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdlamch.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdlamch.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdlange.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdlange.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_indxg2l.o          HPL_indxg2lp.o         HPL_indxg2p.o HPL_indxl2g.o          HPL_infog2l.o          HPL_numroc.o HPL_numrocI.o          HPL_dlaswp00N.o        HPL_dlaswp10N.o HPL_dlaswp01N.o        HPL_dlaswp01T.o        HPL_dlaswp02N.o HPL_dlaswp03N.o        HPL_dlaswp03T.o        HPL_dlaswp04N.o HPL_dlaswp04T.o        HPL_dlaswp05N.o        HPL_dlaswp05T.o HPL_dlaswp06N.o        HPL_dlaswp06T.o        HPL_pwarn.o HPL_pabort.o           HPL_pdlaprnt.o         HPL_pdlamch.o HPL_pdlange.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/pauxil/a800_ch3'
+( cd src/pfact/a800_ch3;         make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/pfact/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlocmax.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlocmax.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlocswpN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlocswpN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dlocswpT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dlocswpT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdmxswp.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdmxswp.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpancrN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpancrN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpancrT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpancrT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpanllN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpanllN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpanllT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpanllT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpanrlN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpanrlN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdpanrlT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdpanrlT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdrpanllN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdrpanllN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdrpanllT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdrpanllT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdrpancrN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdrpancrN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdrpancrT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdrpancrT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdrpanrlN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdrpanrlN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdrpanrlT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdrpanrlT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdfact.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdfact.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_dlocmax.o          HPL_dlocswpN.o         HPL_dlocswpT.o HPL_pdmxswp.o          HPL_pdpancrN.o         HPL_pdpancrT.o HPL_pdpanllN.o         HPL_pdpanllT.o         HPL_pdpanrlN.o HPL_pdpanrlT.o         HPL_pdrpanllN.o        HPL_pdrpanllT.o HPL_pdrpancrN.o        HPL_pdrpancrT.o        HPL_pdrpanrlN.o HPL_pdrpanrlT.o        HPL_pdfact.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/pfact/a800_ch3'
+( cd src/pgesv/a800_ch3;         make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/pgesv/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pipid.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pipid.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_plindx0.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_plindx0.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdlaswp00N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdlaswp00N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdlaswp00T.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdlaswp00T.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_perm.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_perm.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_logsort.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_logsort.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_plindx10.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_plindx10.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_plindx1.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_plindx1.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_spreadN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_spreadN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_spreadT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_spreadT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_rollN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_rollN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_rollT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_rollT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_equil.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_equil.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdlaswp01N.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdlaswp01N.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdlaswp01T.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdlaswp01T.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdupdateNN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdupdateNN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdupdateNT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdupdateNT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdupdateTN.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdupdateTN.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdupdateTT.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdupdateTT.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdtrsv.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdtrsv.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdgesv0.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdgesv0.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdgesvK1.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdgesvK1.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdgesvK2.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdgesvK2.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdgesv.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdgesv.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_pipid.o            HPL_plindx0.o          HPL_pdlaswp00N.o HPL_pdlaswp00T.o       HPL_perm.o             HPL_logsort.o HPL_plindx10.o         HPL_plindx1.o          HPL_spreadN.o HPL_spreadT.o          HPL_rollN.o            HPL_rollT.o HPL_equil.o            HPL_pdlaswp01N.o       HPL_pdlaswp01T.o HPL_pdupdateNN.o       HPL_pdupdateNT.o       HPL_pdupdateTN.o HPL_pdupdateTT.o       HPL_pdtrsv.o           HPL_pdgesv0.o HPL_pdgesvK1.o         HPL_pdgesvK2.o         HPL_pdgesv.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/src/pgesv/a800_ch3'
+make[1]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+make -f Make.top build_tst       arch=a800_ch3
+make[1]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
+( cd testing/matgen/a800_ch3;    make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/matgen/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_dmatgen.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_dmatgen.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_ladd.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_ladd.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_lmul.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_lmul.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_xjumpm.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_xjumpm.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_jumpit.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_jumpit.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_rand.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_rand.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_setran.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_setran.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_dmatgen.o          HPL_ladd.o             HPL_lmul.o HPL_xjumpm.o           HPL_jumpit.o           HPL_rand.o HPL_setran.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/matgen/a800_ch3'
+( cd testing/timer/a800_ch3;     make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/timer/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_timer.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_timer.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_timer_cputime.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_timer_cputime.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_timer_walltime.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_timer_walltime.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_timer.o            HPL_timer_cputime.o    HPL_timer_walltime.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/timer/a800_ch3'
+( cd testing/pmatgen/a800_ch3;   make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/pmatgen/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdmatgen.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdmatgen.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_pdmatgen.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/pmatgen/a800_ch3'
+( cd testing/ptimer/a800_ch3;    make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/ptimer/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_ptimer.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_ptimer.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_ptimer_cputime.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_ptimer_cputime.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_ptimer_walltime.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_ptimer_walltime.c
+ar r /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  HPL_ptimer.o           HPL_ptimer_cputime.o   HPL_ptimer_walltime.o
+echo /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a 
+/root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/ptimer/a800_ch3'
+( cd testing/ptest/a800_ch3;     make )
+make[2]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/ptest/a800_ch3'
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pddriver.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pddriver.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdinfo.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdinfo.c
+../HPL_pdinfo.c: In function 'HPL_pdinfo':
+../HPL_pdinfo.c:304:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  304 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:305:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  305 |       (void) fgets( auth, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:309:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  309 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:311:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  311 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:327:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  327 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:337:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  337 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:351:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  351 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:361:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  361 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:375:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  375 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:379:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  379 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:389:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  389 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:400:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  400 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:426:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  426 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:431:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  431 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:440:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  440 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:453:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  453 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:462:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  462 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:476:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  476 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:485:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  485 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:499:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  499 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:508:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  508 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:521:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  521 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:530:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  530 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:546:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  546 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:555:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  555 |       (void) fgets( line, HPL_LINE_MAX - 2, infp ); lineptr = line;
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:570:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  570 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:579:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  579 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:585:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  585 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:591:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  591 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:597:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  597 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../HPL_pdinfo.c:603:14: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+  603 |       (void) fgets( line, HPL_LINE_MAX - 2, infp );
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc -o HPL_pdtest.o -c  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops  ../HPL_pdtest.c
+/root/autodl-tmp/ASC_SELECTION/mpich-ch3/bin/mpicc  -DHPL_CALL_CBLAS -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include -I/root/autodl-tmp/ASC_SELECTION/hpl-2.3/include/a800_ch3 -I/usr/include/x86_64-linux-gnu  -O3 -march=native -funroll-loops -o /root/autodl-tmp/ASC_SELECTION/hpl-2.3/bin/a800_ch3/xhpl HPL_pddriver.o         HPL_pdinfo.o           HPL_pdtest.o /root/autodl-tmp/ASC_SELECTION/hpl-2.3/lib/a800_ch3/libhpl.a  -lopenblas 
+make /root/autodl-tmp/ASC_SELECTION/hpl-2.3/bin/a800_ch3/HPL.dat
+make[3]: Entering directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/ptest/a800_ch3'
+( cp ../HPL.dat /root/autodl-tmp/ASC_SELECTION/hpl-2.3/bin/a800_ch3 )
+make[3]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/ptest/a800_ch3'
+touch dexe.grd
+make[2]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3/testing/ptest/a800_ch3'
+make[1]: Leaving directory '/root/autodl-tmp/ASC_SELECTION/hpl-2.3'
