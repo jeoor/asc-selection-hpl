@@ -20,7 +20,7 @@ HPL 2.3 源码从 [Netlib](https://www.netlib.org/benchmark/hpl/) 获取，解�
 | HPL | 2.3 |
 | MPI | MPICH 3.4.3，`ch3:sock` |
 | BLAS | OpenBLAS 0.3.20 |
-| GPU | NVIDIA A800 80GB PCIe（HPL 计算未使用 GPU） |
+| GPU | NVIDIA A800 80GB PCIe |
 
 系统自带的 OpenMPI 和 Ubuntu 软件源中的 MPICH 都会在 MPI 初始化时卡住。最终使用以下方式单独编译 MPICH：
 
