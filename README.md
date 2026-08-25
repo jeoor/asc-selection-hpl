@@ -6,6 +6,8 @@
 
 本仓库保存最终选拔基础题的配置、命令、完整日志和结果。HPL 源码与编译产物没有上传。
 
+HPL 2.3 源码从 [Netlib](https://www.netlib.org/benchmark/hpl/) 获取，解压到 `/root/autodl-tmp/ASC_SELECTION/hpl-2.3/`。
+
 ## 环境
 
 | 项目 | 内容 |
@@ -71,7 +73,7 @@ bash scripts/extract_results.sh
 
 ![HPL 三组参数结果](results/hpl_results.png)
 
-三组结果都通过残差检查。`NB=256` 的性能最高，为 706.65 GFLOPS；与 `NB=128` 相比提高约 2.35%，与 `NB=192` 相比提高约 6.47%。在本次固定规模和进程网格下，`NB=256` 的分块更适合当前 OpenBLAS 计算和通信开销。
+三组结果都通过残差检查。`NB=256` 的性能最高，为 706.65 GFLOPS；与 `NB=128` 相比提高约 2.35%，与 `NB=192` 相比提高约 6.47%。所以在本次固定问题规模、进程数和进程网格下，`NB=256` 表现最好。
 
 ## 文件说明
 
