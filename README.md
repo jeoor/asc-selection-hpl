@@ -12,7 +12,7 @@ HPL 2.3 源码从 [Netlib](https://www.netlib.org/benchmark/hpl/) 获取，解�
 
 | 项目 | 内容 |
 | --- | --- |
-| 机器来源 | 自备付费云服务器（AutoDL / SeetaCloud） |
+| 机器来源 | 自备付费云服务器（SeetaCloud） |
 | 操作系统 | Ubuntu 22.04.1 LTS |
 | CPU | Intel Xeon Gold 6348，分配 14 vCPU |
 | 内存 | 120 GiB |
