@@ -12,9 +12,9 @@ HPL 2.3 源码从 [Netlib](https://www.netlib.org/benchmark/hpl/) 获取，解�
 
 | 项目 | 内容 |
 | --- | --- |
-| 机器来源 | 自备付费云服务器（AutoDL） |
+| 机器来源 | 自备服务器（AutoDL，付费） |
 | 操作系统 | Ubuntu 22.04.1 LTS |
-| CPU | Intel Xeon Gold 6348，分配 14 vCPU |
+| CPU | Intel Xeon Gold 6348（14 vCPU） |
 | 内存 | 120 GiB |
 | 编译器 | GCC 11.4.0 |
 | HPL | 2.3 |

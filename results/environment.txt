@@ -25,3 +25,6 @@ HYDRA build details:
     Topology libraries available:            hwloc
 =
 NVIDIA A800 80GB PCIe, 81920 MiB, 595.71.05
+OPENBLAS_VERIFIED_AT=2026-08-27T12:26:58+08:00
+OPENBLAS_PACKAGE_VERSION=0.3.20+ds-1
+OPENBLAS_LIBRARY=/usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so
